@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <!--Logo de Argentina Programa-->
+            <img src="../../../assets/img/APLogo.png" id="logoAP">
+        </div>
+        <div class="redes">
+            <!--REDES SOCIALES-->
+            <a href="https://www.linkedin.com/in/nadia-pereyra-0643aa236/"><img src="../../../assets/img/logosRedesSociales/linkedin.png" id="linkedin"></a>
+            <a href="https://www.instagram.com/nadia.pereyra3/"><img src="../../../assets/img/logosRedesSociales/instagram.png" id="instagram"></a>
+            <a href="https://github.com/NaSP32"><img src="../../../assets/img/logosRedesSociales/github.png" id="github"></a>
+            <a href="https://www.facebook.com/nadia.pereyra3"><img src="../../../assets/img/logosRedesSociales/facebook.png" id="facebook"></a>
+            <!-- BOTON DE USER/Login Button  -->
+            <button type="button" class="btn btn-link" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+            <button type="button" class="btn btn-link" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESIÓN</button>
+            
+        </div>
+    </div>
+</div>
+
